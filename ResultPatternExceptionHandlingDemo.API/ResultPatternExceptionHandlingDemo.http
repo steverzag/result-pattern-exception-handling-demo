@@ -1,0 +1,54 @@
+@UsersTasks_HostAddress = http://localhost:5000
+
+
+### Create an user v1
+POST {{UsersTasks_HostAddress}}/v-throw/users
+Content-Type: application/json
+{
+  "firstName": "",
+  "lastName": "",
+  "email": ""
+}
+
+### Get an user v1
+GET {{UsersTasks_HostAddress}}/v-throw/users/1
+Accept: application/json
+
+### Create an user v2
+POST {{UsersTasks_HostAddress}}/v-fail/users
+Content-Type: application/json
+{
+  "firstName": "",
+  "lastName": "",
+  "email": ""
+}
+
+### Get an user v2
+GET {{UsersTasks_HostAddress}}/v-fail/users/1
+Accept: application/json
+
+### Create an user v3
+POST {{UsersTasks_HostAddress}}/v-lang-ext/users
+Content-Type: application/json
+{
+  "firstName": "",
+  "lastName": "",
+  "email": ""
+}
+
+### Get an user v3
+GET {{UsersTasks_HostAddress}}/v-lang-ext/users/1
+Accept: application/json
+
+### Create an user v4
+POST {{UsersTasks_HostAddress}}/v-fluent-res/users
+Content-Type: application/json
+{
+  "firstName": "",
+  "lastName": "",
+  "email": ""
+}
+
+### Get an user v4
+GET {{UsersTasks_HostAddress}}/v-fluent-res/users/1
+Accept: application/json
