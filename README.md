@@ -26,7 +26,7 @@ The goal of this project is to serve as a reference and experimentation ground t
 ## 📦 Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/steverzag/user-tasks.git
+   git clone https://github.com/steverzag/result-pattern-exception-handling-demo
    cd <repository-folder>
    ```
 2. Restore dependencies:
